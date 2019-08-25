@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.permission">
+    <application>
+        <provider android:authorities="${applicationId}.PermissionProvider"
+                  android:name=".PermissionProvider"
+                  android:multiprocess="true"
+                  android:exported="false"
+        />
+    </application>
+
+</manifest>
